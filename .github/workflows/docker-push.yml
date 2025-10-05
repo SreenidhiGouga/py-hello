@@ -21,8 +21,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t /py-hello:21f3001224 .
+          docker build -t sreenidhigouga/py-hello:21f3001224 .
 
       - name: Push Docker image
         run: |
-          docker push py-hello:21f3001224
+          docker push sreenidhigouga/py-hello:21f3001224
